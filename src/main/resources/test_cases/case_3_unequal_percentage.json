@@ -1,0 +1,22 @@
+{
+  "users": ["Alice", "Bob", "Charlie"],
+  "expenses": [
+    {
+      "name": "Gift",
+      "paid_by": "Alice",
+      "amount": 200,
+      "split_type": "percentage",
+      "involved": ["Alice", "Bob", "Charlie"],
+      "shares": [0, 30, 20]
+    }
+  ],
+  "balances": [
+    {"name": "Alice", "balance": 100},
+    {"name": "Bob", "balance": -60},
+    {"name": "Charlie", "balance": -40}
+  ],
+  "settlements": [
+    {"from": "Bob", "to": "Alice", "amount": 60},
+    {"from": "Charlie", "to": "Alice", "amount": 40}
+  ]
+}

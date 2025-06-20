@@ -1,0 +1,20 @@
+{
+  "users": ["Alice", "Bob", "Charlie"],
+  "expenses": [
+    {
+      "name": "Taxi",
+      "paid_by": "Bob",
+      "amount": 80,
+      "split_type": "equal",
+      "involved": ["Bob", "Charlie"]
+    }
+  ],
+  "balances": [
+    {"name": "Alice", "balance": 0},
+    {"name": "Bob", "balance": 40},
+    {"name": "Charlie", "balance": -40}
+  ],
+  "settlements": [
+    {"from": "Charlie", "to": "Bob", "amount": 40}
+  ]
+}

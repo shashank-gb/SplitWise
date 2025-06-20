@@ -1,0 +1,22 @@
+{
+  "users": ["Alice", "Bob", "Charlie"],
+  "expenses": [
+    {
+      "name": "Groceries",
+      "paid_by": "Charlie",
+      "amount": 180,
+      "split_type": "unequal",
+      "involved": ["Alice", "Bob", "Charlie"],
+      "shares": [60, 30, 90]
+    }
+  ],
+  "balances": [
+    {"name": "Alice", "balance": -60},
+    {"name": "Bob", "balance": -30},
+    {"name": "Charlie", "balance": 90}
+  ],
+  "settlements": [
+    {"from": "Alice", "to": "Charlie", "amount": 60},
+    {"from": "Bob", "to": "Charlie", "amount": 30}
+  ]
+}

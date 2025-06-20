@@ -1,0 +1,35 @@
+{
+  "users": ["Alice", "Bob", "Charlie"],
+  "expenses": [
+    {
+      "name": "Hotel",
+      "paid_by": "Alice",
+      "amount": 300,
+      "split_type": "equal",
+      "involved": ["Alice", "Bob", "Charlie"]
+    },
+    {
+      "name": "Dinner",
+      "paid_by": "Bob",
+      "amount": 90,
+      "split_type": "equal",
+      "involved": ["Alice", "Bob", "Charlie"]
+    },
+    {
+      "name": "Museum",
+      "paid_by": "Charlie",
+      "amount": 60,
+      "split_type": "equal",
+      "involved": ["Bob", "Charlie"]
+    }
+  ],
+  "balances": [
+    {"name": "Alice", "balance": 60},
+    {"name": "Bob", "balance": -75},
+    {"name": "Charlie", "balance": 15}
+  ],
+  "settlements": [
+    {"from": "Bob", "to": "Alice", "amount": 60},
+    {"from": "Bob", "to": "Charlie", "amount": 15}
+  ]
+}
