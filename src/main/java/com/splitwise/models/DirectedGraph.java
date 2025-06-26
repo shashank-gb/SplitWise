@@ -10,9 +10,9 @@ public class DirectedGraph {
     List<Edge> edges;
     Map<String, Node> nodes = new LinkedHashMap<>();
 
-    DirectedGraph(List<Edge> edges) {
+    public DirectedGraph(List<Edge> edges) {
         for (Edge edge : edges) {
-            addEdge(edge.from, edge.to, edge.weight);
+            addEdge(edge.from, edge.to, edge.amount);
         }
     }
 

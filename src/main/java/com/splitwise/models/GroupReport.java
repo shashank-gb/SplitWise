@@ -1,18 +1,18 @@
 package com.splitwise.models;
 
+import lombok.Data;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 import java.util.Map;
 
 
-@RequiredArgsConstructor
+@Data
 public class GroupReport {
     @Getter
-    final List<User> users;
+    List<String> users;
     @Getter
-    final List<Expense> expenses;
+    List<Expense> expenses;
     Map<String, Double> expectBalances;
     List<Edge> expectSettlements;
 }
