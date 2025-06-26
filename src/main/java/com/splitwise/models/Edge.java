@@ -1,11 +1,13 @@
 package com.splitwise.models;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
 @AllArgsConstructor
-@Getter
+@NoArgsConstructor
 public class Edge {
     String from, to;
-    double weight;
+    double amount;
 }
