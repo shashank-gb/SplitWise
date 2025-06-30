@@ -1,0 +1,98 @@
+{
+  "users": ["GB", "TH", "KG", "Nik"],
+  "expenses": [
+    {
+      "name": "GB to all",
+      "paid_by": "GB",
+      "amount": 1457,
+      "split_type": "equal",
+      "involved": ["GB", "TH", "KG", "Nik"]
+    },
+    {
+      "name": "TH to all",
+      "paid_by": "TH",
+      "amount": 347,
+      "split_type": "equal",
+      "involved": ["GB", "TH", "KG", "Nik"]
+    },
+    {
+      "name": "KG to all",
+      "paid_by": "KG",
+      "amount": 856,
+      "split_type": "equal",
+      "involved": ["GB", "TH", "KG", "Nik"]
+    },
+    {
+      "name": "Nik to all",
+      "paid_by": "Nik",
+      "amount": 1002,
+      "split_type": "equal",
+      "involved": ["GB", "TH", "KG", "Nik"]
+    },
+    {
+      "name": "GB for KG",
+      "paid_by": "GB",
+      "amount": 663,
+      "split_type": "equal",
+      "involved": ["KG"]
+    },
+    {
+      "name": "GB for Nik",
+      "paid_by": "GB",
+      "amount": 583,
+      "split_type": "equal",
+      "involved": ["Nik"]
+    },
+    {
+      "name": "GB for TH",
+      "paid_by": "GB",
+      "amount": 2912,
+      "split_type": "equal",
+      "involved": ["TH"]
+    },
+    {
+      "name": "TH for KG",
+      "paid_by": "TH",
+      "amount": 357,
+      "split_type": "equal",
+      "involved": ["KG"]
+    },
+    {
+      "name": "TH for Nik",
+      "paid_by": "TH",
+      "amount": 112,
+      "split_type": "equal",
+      "involved": ["Nik"]
+    },
+    {
+      "name": "Nik for KG",
+      "paid_by": "Nik",
+      "amount": 39,
+      "split_type": "equal",
+      "involved": ["KG"]
+    },
+    {
+      "name": "KG for GB",
+      "paid_by": "KG",
+      "amount": 310,
+      "split_type": "equal",
+      "involved": ["GB"]
+    },
+    {
+      "name": "KG for Nik",
+      "paid_by": "KG",
+      "amount": 2297,
+      "split_type": "equal",
+      "involved": ["Nik"]
+    },
+    {
+      "name": "KG for TH",
+      "paid_by": "KG",
+      "amount": 1030,
+      "split_type": "equal",
+      "involved": ["TH"]
+    }
+  ],
+  "balances": [],
+  "settlements": []
+}
